@@ -5,7 +5,11 @@ import dotenv from "dotenv";
 import conf from "../config.js";
 
 dotenv.config();
-
+/* user: 'admin',
+password: 'bodega2023',
+server: 'queleo.crmho7ngcozn.us-east-1.rds.amazonaws.com',
+database: 'queleo',
+ */
 /****************** SQL Server *****************/
 const dbSettingSqlServer = {
     user: conf.dbUser,
